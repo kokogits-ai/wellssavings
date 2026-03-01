@@ -1,11 +1,25 @@
-<div align="center">
+# Wells Fargo Clone - Vercel Deployment Guide
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project is a high-fidelity React replica of the Wells Fargo homepage, optimized for deployment on Vercel.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Quick Deployment
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Push to GitHub**: Push this code to a new GitHub repository.
+2. **Import to Vercel**:
+   - Go to [Vercel Dashboard](https://vercel.com/new).
+   - Import your repository.
+   - Vercel will automatically detect the Vite configuration.
+3. **Configure Environment Variables** (Optional):
+   - If you plan to use the Gemini API, add `GEMINI_API_KEY` in the Vercel project settings.
+4. **Deploy**: Click "Deploy".
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠 Project Configuration
 
-</div>
+- **Framework Preset**: Vite
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Routing**: Handled by `vercel.json` to support Single Page Application (SPA) behavior.
+
+## 🔗 Redirection
+All links and buttons are currently configured to redirect to:
+`https://wellsfargopremiumchecking.vercel.app/`
